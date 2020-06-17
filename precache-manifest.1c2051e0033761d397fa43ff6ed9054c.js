@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6c5582517e7f5bd835680486cb70b0b7",
+    "revision": "1f911a6550b8d401f95b44249d4ceace",
     "url": "/Circus-Seven-Puzzle/index.html"
   },
   {
-    "revision": "080d8b5320c285f1fc39",
-    "url": "/Circus-Seven-Puzzle/static/css/main.27bed868.chunk.css"
+    "revision": "2bcba7109aeabc2650d9",
+    "url": "/Circus-Seven-Puzzle/static/css/main.adc0827d.chunk.css"
   },
   {
     "revision": "bdd41f267c806ecfc92f",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Circus-Seven-Puzzle/static/js/2.fc075c5b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "080d8b5320c285f1fc39",
+    "revision": "2bcba7109aeabc2650d9",
     "url": "/Circus-Seven-Puzzle/static/js/main.5e3d1235.chunk.js"
   },
   {

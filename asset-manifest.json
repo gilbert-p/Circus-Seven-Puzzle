@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Circus-Seven-Puzzle/static/css/main.27bed868.chunk.css",
+    "main.css": "/Circus-Seven-Puzzle/static/css/main.adc0827d.chunk.css",
     "main.js": "/Circus-Seven-Puzzle/static/js/main.5e3d1235.chunk.js",
     "main.js.map": "/Circus-Seven-Puzzle/static/js/main.5e3d1235.chunk.js.map",
     "runtime-main.js": "/Circus-Seven-Puzzle/static/js/runtime-main.afe4b528.js",
@@ -8,16 +8,16 @@
     "static/js/2.fc075c5b.chunk.js": "/Circus-Seven-Puzzle/static/js/2.fc075c5b.chunk.js",
     "static/js/2.fc075c5b.chunk.js.map": "/Circus-Seven-Puzzle/static/js/2.fc075c5b.chunk.js.map",
     "index.html": "/Circus-Seven-Puzzle/index.html",
-    "precache-manifest.8fe056e74579272f3f3fa54f9b9f95e6.js": "/Circus-Seven-Puzzle/precache-manifest.8fe056e74579272f3f3fa54f9b9f95e6.js",
+    "precache-manifest.1c2051e0033761d397fa43ff6ed9054c.js": "/Circus-Seven-Puzzle/precache-manifest.1c2051e0033761d397fa43ff6ed9054c.js",
     "service-worker.js": "/Circus-Seven-Puzzle/service-worker.js",
-    "static/css/main.27bed868.chunk.css.map": "/Circus-Seven-Puzzle/static/css/main.27bed868.chunk.css.map",
+    "static/css/main.adc0827d.chunk.css.map": "/Circus-Seven-Puzzle/static/css/main.adc0827d.chunk.css.map",
     "static/js/2.fc075c5b.chunk.js.LICENSE.txt": "/Circus-Seven-Puzzle/static/js/2.fc075c5b.chunk.js.LICENSE.txt",
     "static/media/logo.svg": "/Circus-Seven-Puzzle/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.afe4b528.js",
     "static/js/2.fc075c5b.chunk.js",
-    "static/css/main.27bed868.chunk.css",
+    "static/css/main.adc0827d.chunk.css",
     "static/js/main.5e3d1235.chunk.js"
   ]
 }

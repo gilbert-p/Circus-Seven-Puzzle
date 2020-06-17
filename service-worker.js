@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Circus-Seven-Puzzle/precache-manifest.8fe056e74579272f3f3fa54f9b9f95e6.js"
+  "/Circus-Seven-Puzzle/precache-manifest.1c2051e0033761d397fa43ff6ed9054c.js"
 );
 
 self.addEventListener('message', (event) => {
