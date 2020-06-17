@@ -6,6 +6,8 @@ const HexagonPuzzle = () => {
   const [puzzle, setPuzzle] = useState(solutionToGrid);
   const [solution, setSolution] = useState([]);
   const [animationDone, setAnimationState] = useState(false);
+  const [viewportWidth, setViewportWidth] = useState(window.innerWidth);
+  const [viewportHeight, setViewportHeight] = useState(window.innerHeight);
   let hexagonListMain = [];
 
   let limit = 7;
@@ -490,9 +492,48 @@ const HexagonPuzzle = () => {
     );
   }, []);
 
+  useEffect(() => {
+    function handleResize() {
+      console.log("resized to: ", window.innerWidth, "x", window.innerHeight);
+      setViewportWidth(window.innerWidth);
+      setViewportHeight(window.innerHeight);
+
+      window.addEventListener("resize", handleResize);
+
+      // return window.removeEventListener("resize", handleResize);
+    }
+    handleResize();
+  });
+
   return (
     <>
-      <div className="hex-container">
+      <div
+        className="title-content"
+        style={{
+          transform: `scale(${
+            Math.min(viewportWidth / 820, viewportHeight / 820) * 1
+          })`,
+        }}>
+        <h1 id="puzzle-title">
+          Circus Seven Puzzle <span id="title-underline"></span>
+        </h1>
+
+        <div className="puzzle-info">
+          <div className="info-title">What is this?</div>
+          <div className="info-body">
+            Circus Seven is a puzzle consisting of seven large hexagonal nuts,
+            each piece has six colours, and there is a perfect correspondence
+            with the colors of the puzzle.
+          </div>
+        </div>
+      </div>
+      <div
+        className="hex-container"
+        style={{
+          transform: `scale(${
+            Math.min(viewportWidth / 820, viewportHeight / 820) * 1
+          })`,
+        }}>
         {solution.map((hex, hexIndex) => {
           return (
             <div className="hexagon" id={`hex-${hexIndex}`} key={hex}>
